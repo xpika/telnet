@@ -4,11 +4,11 @@ Works somewhat
 
 usage: 
 
-> runhaskell Main.hs **domain** **port**
+``` runhaskell Main.hs **domain** **port**```
 
 then type: 
 
-> GET /
+```GET /```
 
 then:
 
