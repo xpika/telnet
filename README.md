@@ -4,10 +4,10 @@ Works somewhat
 
 usage: 
 
-runhaskell Main.hs <domain.tld> 80
+> runhaskell Main.hs **domain** 80
 
 then type: 
 
-GET /
+> GET /
 
 \*\*stuff happens\*\*
