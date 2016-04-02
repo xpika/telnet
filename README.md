@@ -4,7 +4,7 @@ Works somewhat
 
 eg usage: 
 
-``` runhaskell Main.hs site.com 80```
+``` runhaskell Main.hs xy30.com 80```
 
 then type: 
 
