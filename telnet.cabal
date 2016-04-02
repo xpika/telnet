@@ -57,7 +57,7 @@ executable telnet
   -- other-extensions:    
   
   -- Other library packages from which modules are imported.
-  build-depends:       base >=4.8 && <4.9
+  build-depends:       base >=4.8 && <4.9 , network < 10000
   
   -- Directories containing source files.
   -- hs-source-dirs:      
