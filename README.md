@@ -4,7 +4,7 @@ Works somewhat
 
 usage: 
 
-> runhaskell Main.hs **domain** 80
+> runhaskell Main.hs **domain** **port**
 
 then type: 
 
