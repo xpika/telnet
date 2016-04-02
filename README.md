@@ -2,9 +2,9 @@
 
 Works somewhat
 
-usage: 
+eg usage: 
 
-``` runhaskell Main.hs **domain** **port**```
+``` runhaskell Main.hs site.com 80```
 
 then type: 
 
