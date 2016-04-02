@@ -12,4 +12,4 @@ then type:
 
 then:
 
-\*\*stuff happens\*\*
+*stuff happens*
