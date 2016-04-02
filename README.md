@@ -12,4 +12,4 @@ then type
 GET /
 ```
 
-**stuff happens**
+\*\*stuff happens\*\*
