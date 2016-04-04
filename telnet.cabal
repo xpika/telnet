@@ -65,3 +65,9 @@ executable telnet
   -- Base language which the package is written in.
   default-language:    Haskell2010
   
+
+Test-Suite the-test
+   type:       exitcode-stdio-1.0
+   main-is:    Test.hs
+   build-depends: base , HUnit <1000 , network <10000 , tasty <100000, tasty-hunit <10000 , directory  < 10000 , process < 10000
+ 
