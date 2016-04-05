@@ -13,7 +13,7 @@ main = do
 
 testEchoServer input = do    
        dir <- getCurrentDirectory 
-       tid <- forkIO $ runEchoServer
+       tid <- forkIO runEchoServer
        -- replicateM 10 $ putStrLn "waiting.." >> threadDelay 1000000
        (Just stdin', Just hout', _, pid) <-
          createProcess (proc "runhaskell" ["Main.hs","127.0.0.1","4243"]){ std_out = CreatePipe  , std_in = CreatePipe}
