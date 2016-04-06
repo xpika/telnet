@@ -30,6 +30,19 @@ rest args = do
    y <- getLine
    hPutStrLn h y
    hFlush h
- forever $ do
+ whileM_ (fmap not $hIsEOF h) $ do
    l <- hGetLine h
    putStrLn l
+
+
+
+-- |Execute an action repeatedly as long as the given boolean expression
+-- returns True.  The condition is evaluated before the loop body.
+-- Discards results.
+whileM_ :: (Monad m) => m Bool -> m a -> m ()
+whileM_ p f = go
+    where go = do
+            x <- p
+            if x
+                then f >> go
+                else return ()
