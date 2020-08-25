@@ -1,5 +1,9 @@
 # telnet
 
+This project is mainly a small experiment.
+
+For advanced problems, I recommend using netcat.
+
 usage: 
 
 ``` runhaskell Main.hs domain port```
