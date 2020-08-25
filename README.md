@@ -1,14 +1,12 @@
 # telnet
 
-Works somewhat
-
 usage: 
 
 ``` runhaskell Main.hs domain port```
 
 eg: 
 
-``` runhaskell Main.hs codekinder.com 80```
+``` runhaskell Main.hs 127.0.0.1 80```
 
 then type
 
